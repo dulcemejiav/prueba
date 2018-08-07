@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+#sec-intro{
+	padding: 60px 0px 0px 0px;
+	background-image: url(../img/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: auto;
+	height: 800px;
+}
+
+#sec-intro{
+	margin-top: 20px;
+}
+
+#sec-intro h1{
+	padding-top: 80px;
+}
+#sec-intro h1,#sec-intro h2,#sec-intro h4,#sec-intro p{
+	color: white;
+}
+#sec-intro i{
+	color: white;
+	height: 800px;
+}
+#sec-intro h1::after{
+	content: "";
+	width: 105px;
+	height: 10px;
+	background-color: #00D3F3;
+	display: block;
+	border-radius: 0px 0px 4px 4px;
+}
+i{
+	color: #151515;
+	padding: 0px 10px 0px 4px;
+	height: 20px;
+}
+#sec-services{
+	margin-top: 30px;
+}
+#sec-features{
+	margin-top: 30px;
+}
+#sec-last{
+	margin-top: 30px;
+}
+h2{
+	text-align: center;
+}
+p{
+	justify-content: center;
+}
